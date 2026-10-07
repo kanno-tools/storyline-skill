@@ -22,6 +22,7 @@ storyline（このスキル）  ストーリーライン表を作る。スライ
 
 ```
 SKILL.md                     手順・出力形式・点検（最初に読まれる）
+docs/validation.md           比較検証の記録（Gemini には読ませない）
 references/flow-rules.md     問いの分解、並べ方、枚数、見せ方の選び方
 references/title-rules.md    タイトルの書き方と禁止の形
 references/review-prompt.md  別の目で読ませる指示文と採否表
@@ -54,5 +55,6 @@ gemini skills list
 
 | 版 | 内容 |
 |---|---|
+| v2.0.0 | 元にしたスキルとの比較検証（9素材・6回、作り手と審査を分けた盲検）で見つかった弱点を直した。説明会・報告の型、依頼の位置と締め、母集団・伝聞の扱い、比較の行、背景不足のときの出し方など。結果は docs/validation.md |
 | v1.1.0 | 「動かす」列と moving-slides 専用の渡し方を外し、静止スライドにも同じように使える形にした |
 | v1.0.0 | 初版 |

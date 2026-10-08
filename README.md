@@ -27,7 +27,7 @@ docs/validation.md                    v1〜v2 系の比較検証の記録（Gemi
 ### Gemini CLI
 
 ```bash
-git clone https://github.com/KANNOHI1/storyline-skill.git
+git clone https://github.com/kanno-tools/storyline-skill.git
 gemini skills link ./storyline-skill
 gemini skills list
 ```
